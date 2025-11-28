@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/5cd4cb7ac6.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1>hello world</h1>
+<body class="bg-slate-800">
+    <header class="max-w-lg min-h-screen mx-auto py-6 bg-[#F4F5F7]">
+        <div class="flex justify-between items-center mx-5 py-3">
+            <div class="flex justify-center items-center">
+                <div>
+                    <img class="w-14" src="./assets/images/Group.png" alt="">
+                </div>
+                <div >
+                    <h1 class="outfit text-lg font-extrabold">$4500</h1>
+                    <h3 class="outfit ">Available Balance</h3>
+                </div>
+            </div>
+            <div >
+                <div id="logout-btn" class="border rounded-lg border-[#E6E6E6] outfit text-sm  w-[102px] h-[38px] flex justify-center items-center text-[#838383]">
+                    <i class="fa-solid fa-right-from-bracket text-xs"></i>
+                    <button class="ml-1"> Log Out</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <script src="./assets/js/logOut.js"></script>
 </body>
 </html>

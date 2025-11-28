@@ -20,15 +20,18 @@
                 </div>
             </div>
             <div class="flex justify-center">
-                <fieldset class="fieldset p-4">
+                <form action="">
+                    <fieldset class="fieldset p-4">
 
                     <label class="label text-xl">Account Number</label>
-                    <input type="number" class="input md:w-96" placeholder="Enter Your Number" />
+                    <input id="account-number" type="number" class="input md:w-96" placeholder="Enter Your Number" value="01212564364" required/>
 
                     <label class="label text-lg">4Digit Pin</label>
-                    <input type="password" class="input md:w-96" placeholder="Pin Number" />
-                    <button class="btn btn-neutral mt-4">Login</button>
+                    <input id="pin-number" type="text" class="input md:w-96" placeholder="Pin Number" required value="1234"/>
+
+                    <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
                 </fieldset>
+                </form>
             </div>
         </div>
     </section>

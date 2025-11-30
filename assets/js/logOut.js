@@ -1,3 +1,4 @@
-document.getElementById('logout-btn').addEventListener('click',function(){
-    alert('Log Out Your Account')
+document.getElementById('logout-btn').addEventListener('click',function(event){
+    event.preventDefault();
+    window.location.href="./index.html"
 });

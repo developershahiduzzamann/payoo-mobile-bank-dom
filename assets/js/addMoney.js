@@ -10,12 +10,17 @@ document.getElementById('add-money-btn').addEventListener('click',function(event
     const mainBalance = document.getElementById('main-balance').innerText;
     const balance = parseFloat(mainBalance);
 
-    if(pin === 1234){
-        const sum = convartAmount + balance;
-        document.getElementById('main-balance').innerText = sum;
+    if(amount && pinNumber){
+        if(pin === 1234){
+            const sum = convartAmount + balance;
+            document.getElementById('main-balance').innerText = sum;
+        }
+        else{
+            alert('Enter Valid Pin');
+        }
     }
     else{
-        console.log('try it');
+        alert('Enter Amount');
     }
 
 });

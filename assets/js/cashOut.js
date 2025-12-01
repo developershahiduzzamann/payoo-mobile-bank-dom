@@ -4,7 +4,7 @@ document.getElementById('Withdraw-btn').addEventListener('click',function(event)
     const balance = document.getElementById('main-balance').innerText;
     const mainBalance = parseFloat(balance);
 
-    const cashOut = document.getElementById('input-amount').value;
+    const cashOut = document.getElementById('cashOut-amount').value;
     const amount = parseFloat(cashOut);
 
     const pinNumber = document.getElementById('pin-number').value;

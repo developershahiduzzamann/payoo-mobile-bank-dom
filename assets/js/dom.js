@@ -10,11 +10,11 @@ document.getElementById('login-btn').addEventListener('click',function(event){
             window.location.href="./main.html"
         }
         else{
-            alert("Pin Not valid")
+            alert("Pin Not valid");
         }
     }
     else{
-        alert("Need valid Number")
+        alert("Need valid Number");
     }
 
 });

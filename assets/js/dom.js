@@ -14,7 +14,7 @@ document.getElementById('login-btn').addEventListener('click',function(event){
         }
     }
     else{
-        alert("Need valid Number");
+        alert("valid Number");
     }
 
 });

@@ -15,7 +15,8 @@ document.getElementById('login-btn').addEventListener('click',function(event){
         }
     }
     else{
-        alert("valid Number");
+        alert("Valid Number");
+        alert("Thank You");
     }
 
 });

@@ -11,12 +11,10 @@ document.getElementById('login-btn').addEventListener('click',function(event){
         }
         else{
             alert("Pin Not valid");
-            alert("valid pin");
         }
     }
     else{
         alert("Valid Number");
-        alert("Thank You");
     }
 
 });

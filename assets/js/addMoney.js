@@ -21,7 +21,7 @@ document.getElementById('add-money-btn').addEventListener('click',function(event
     }
     else{
         alert('Enter Amount');
-        alert("Added amount");
+        
     }
 
 });
